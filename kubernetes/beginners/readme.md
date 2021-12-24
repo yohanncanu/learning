@@ -20,7 +20,7 @@ but run anywhere (linux,macos,windows)
 
 ## Kubernetes
 
-describe desired state
+describe the desired state
 
 1- pods live and die
 
@@ -42,14 +42,14 @@ key features:
 
 * service discovery
 * storage orchestration
-* automate rollouts/rollboacks
+* automate rollouts/rollbacks
 * self healing
 * secrets and configuration
 * horizontal scaling
 
 ### Before kubernetes
 
-we may loadbalance on VirtualMachines running some docker containers.
+we may load-balance on VirtualMachines running some docker containers.
 
 <img src="beginners.assets/image-20211224115006315.png" alt="image-20211224115006315" style="zoom:40%;" />
 
@@ -59,9 +59,9 @@ These docker containers may look like the following :
 
 <img src="beginners.assets/image-20211224115710999.png" alt="image-20211224115710999" style="zoom:50%;" />
 
-But what happens if some containers crashes or if entire VM is down ?
+But what happens if some containers crash or if the entire VM is down?
 
-## What is kubernetes
+## What is Kubernetes
 
 declarative: describe desired state
 
@@ -77,8 +77,8 @@ Inside kubernetes
 
 on each node (machine):
 
-* kubelet: agent on each nodes that will report to the control manager.
+* kubelet: agent on each node that will report to the control manager.
 
-* container runtime: will allow to run containers inside pods
+* container runtime: will allow running containers inside pods
 
 * kube-proxy: responsible for the networking, will ensure that each pod get a unique address
