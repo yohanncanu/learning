@@ -82,3 +82,11 @@ on each node (machine):
 * container runtime: will allow running containers inside pods
 
 * kube-proxy: responsible for the networking, will ensure that each pod get a unique address
+
+Pod
+
+<img src="beginners.assets/image-20211224123429535.png" alt="image-20211224123429535" style="zoom:33%;" />
+
+Network
+
+<img src="beginners.assets/image-20211224123511217.png" alt="image-20211224123511217" style="zoom:50%;" />
