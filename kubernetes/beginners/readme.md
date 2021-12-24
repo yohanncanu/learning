@@ -14,7 +14,7 @@ but run anywhere (linux,macos,windows)
 
  and allow to ship code with infra (how to run the code)
 
-<img src="learn.assets/image-20211224130025149.png" alt="image-20211224130025149" style="zoom:50%;" />
+<img src="beginners.assets/image-20211224130025149.png" alt="image-20211224130025149" style="zoom:50%;" />
 
 ## Kubernetes
 
