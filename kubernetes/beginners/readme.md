@@ -2,7 +2,7 @@
 
 ## Docker basics
 
-<img src="beginners.assets/image-20211224091640448.png" alt="image-20211224091640448" style="zoom:50%;" />
+<img src="beginners.assets/image-20211224124640708.png" alt="image-20211224124640708" style="zoom:33%;" />
 
 what is docker ?
 
