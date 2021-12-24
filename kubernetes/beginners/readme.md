@@ -2,7 +2,7 @@
 
 ## Docker basics
 
-<img src="learn.assets/image-20211224091640448.png" alt="image-20211224091640448" style="zoom:50%;" />
+<img src="beginners.assets/image-20211224091640448.png" alt="image-20211224091640448" style="zoom:50%;" />
 
 what is docker ?
 
@@ -14,9 +14,9 @@ but run anywhere (linux,macos,windows)
 
  and allow to ship code with infra (how to run the code)
 
-<img src="learn.assets/image-20211224092542739.png" alt="image-20211224092542739" style="zoom:50%;" />
+<img src="beginners.assets/image-20211224092542739.png" alt="image-20211224092542739" style="zoom:50%;" />
 
-<img src="learn.assets/image-20211224092635613.png" alt="image-20211224092635613" style="zoom:33%;" />
+<img src="beginners.assets/image-20211224092635613.png" alt="image-20211224092635613" style="zoom:33%;" />
 
 ## Kubernetes
 
@@ -28,9 +28,9 @@ describe desired state
 
 3- 
 
-<img src="learn.assets/image-20211224101530838.png" alt="image-20211224101530838" style="zoom:50%;" />
+<img src="beginners.assets/image-20211224101530838.png" alt="image-20211224101530838" style="zoom:50%;" />
 
-![image-20211224103444090](learn.assets/image-20211224103444090.png)
+![image-20211224103444090](beginners.assets/image-20211224103444090.png)
 
 
 
@@ -51,13 +51,13 @@ key features:
 
 we may loadbalance on VirtualMachines running some docker containers.
 
-<img src="learn.assets/image-20211224115006315.png" alt="image-20211224115006315" style="zoom:40%;" />
+<img src="beginners.assets/image-20211224115006315.png" alt="image-20211224115006315" style="zoom:40%;" />
 
 
 
 These docker containers may look like the following :
 
-<img src="learn.assets/image-20211224115710999.png" alt="image-20211224115710999" style="zoom:50%;" />
+<img src="beginners.assets/image-20211224115710999.png" alt="image-20211224115710999" style="zoom:50%;" />
 
 But what happens if some containers crashes or if entire VM is down ?
 
@@ -71,7 +71,7 @@ Inside kubernetes
 * pods: they wrap containers, they have one unique IP and can communicate with all other pods in the cluster
 * services: define networking properties, allow to discover applications
 
-<img src="learn.assets/image-20211224121221831.png" alt="image-20211224121221831" style="zoom:50%;" />
+<img src="beginners.assets/image-20211224121221831.png" alt="image-20211224121221831" style="zoom:50%;" />
 
 * kubectl: use api to deploy workload with yaml manifests
 
